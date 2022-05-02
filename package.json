@@ -1,0 +1,26 @@
+{
+  "name": "lojadozero",
+  "version": "1.0.0",
+  "description": "loja_vitrual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rugles-chaves/rma.git"
+  },
+  "keywords": [
+    
+  ],
+  "author": "RuglesChaves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rugles-chaves/rma/issues"
+  },
+  "homepage": "https://github.com/rugles-chaves/rma#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "git": "^0.1.5"
+  }
+}
