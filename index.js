@@ -1,16 +1,15 @@
-const express = require('express')
-const app = express()
-const handlebars = require('express-handlebars')
+const express = require('express');
+const { engine } = require ('express-handlebars');
 
-//Config tamplats energ
+const app = express();
 
-app.engine('handlebars', handlebars({defaultlLayout: 'main'}))
-app.set('view engine', 'handlebrs')
+app.engine('handlebars', engine());
+app.set('view engine', 'handlebars');
 
+//Rotas
 
-
-app.get('/', function (req, res) {
-  res.send('Hello World')
+app.get('/cad', function(req,res){
+    res.render('cad')
 })
 
-app.listen(3000)
+app.listen(3000);
