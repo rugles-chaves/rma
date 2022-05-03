@@ -2,8 +2,8 @@
 const express = require('express');
 const { engine } = require ('express-handlebars');
 const app = express();
-const boryParser = require('bory-parser');
-const path = rewquire('path')
+//const boryParser = require('bory-parser');
+//const path = rewquire('path')
 
 //config
 
