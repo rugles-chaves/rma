@@ -21,4 +21,4 @@ app.get('/cad', function(req,res){
 })
 //fim de rotas
 
-app.listen(3000);
+app.listen(80);
