@@ -16,9 +16,17 @@ const path = require('path')
         app.use(express.static(path.join(__dirname,'public')))
 
 //Rotas
-app.get('/cad', function(req,res){
-    res.render('cad')
+app.get('/', function(req,res){
+    res.render('home')
+})
+app.get('/carrinho', function(req,res){
+    res.render('carrinho')
+})
+
+app.get('/teste', (req,res) => {
+    res.render('teste')
 })
 //fim de rotas
 
-app.listen(80);
+const PORT = process.env.PORT || 80
+app.listen(PORT);
